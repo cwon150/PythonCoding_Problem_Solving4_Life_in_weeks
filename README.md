@@ -24,12 +24,14 @@ age = input("What is your current age?")
 
 age_as_int = int(age)
 
-years_remaining = 90 - age_as_int
+max_age = int(90)
+
+years_remaining = max_age - age_as_int
 
 year_to_days = years_remaining  * 365
 
-year_to_weeks = years_remianing * 52
+year_to_weeks = years_remaining * 52
 
-year_to_months = years_remianing * 12
+year_to_months = years_remaining * 12
 
-print(f"You have {year_to_days} days, {year_to_weeks} weeks, and {year_to_months} months left."
+print(f"You have {year_to_days} days, {year_to_weeks} weeks, and {year_to_months} months left.")
