@@ -8,10 +8,12 @@ age = input("What is your current age?")
 # Write your code below this line 👇
 # 1 yr is 365 days; 1 yr is 52 weeks; 1 yr is 12 months
 
-year_to_days = (90-int(age))  * 365
+age_as_int = int(age)
 
-year_to_weeks = (90 - int(age)) * 52
+year_to_days = (90 - age_as_int)  * 365
 
-year_to_months = (90 - int(age)) * 12
+year_to_weeks = (90 - age_as_int) * 52
+
+year_to_months = (90 - age_as_int) * 12
 
 print(f"You have {year_to_days} days, {year_to_weeks} weeks, and {year_to_months} months left.")
