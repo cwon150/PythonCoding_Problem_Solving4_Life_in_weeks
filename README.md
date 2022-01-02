@@ -24,7 +24,7 @@ age = input("What is your current age?")
 
 age_as_int = int(age)
 
-max_age = int(90)
+max_age = 90
 
 years_remaining = max_age - age_as_int
 
