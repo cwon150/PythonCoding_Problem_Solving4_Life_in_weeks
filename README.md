@@ -24,9 +24,7 @@ age = input("What is your current age?")
 
 age_as_int = int(age)
 
-max_age = 90
-
-years_remaining = max_age - age_as_int
+years_remaining = 90 - age_as_int
 
 year_to_days = years_remaining  * 365
 
