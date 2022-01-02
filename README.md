@@ -14,4 +14,4 @@ year_to_weeks = (90 - int(age)) * 52
 
 year_to_months = (90 - int(age)) * 12
 
-print(f"You have {year_to_days} days, {year_to_weeks} weeks, {year_to_months} months left")
+print(f"You have {year_to_days} days, {year_to_weeks} weeks, and {year_to_months} months left.")
